@@ -140,7 +140,7 @@
             <div class="row"><span class="label">Course</span><span class="value"><?= $course ?></span></div>
             <div class="row"><span class="label">Year Level</span><span class="value"><?= $year ?></span></div>
             <div class="row"><span class="label">Section</span><span class="value"><?= $section ?></span></div>
-            <div class="row"><span class="label">Email</span><span class="value"><?= $email ?></span></div>
+            <div class="row"><span class="label">Emaiil</span><span class="value"><?= $email ?></span></div>
         </div>
         <nav>
             <a href="<?= site_url('student') ?>">Home</a>
