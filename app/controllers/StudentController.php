@@ -12,12 +12,12 @@ class StudentController extends Controller
     public function profile()
     {
         $student = [
-            'student_id' => 'MCC2024-00070',
-            'name'       => 'Korine Alexa Borbe',
+            'student_id' => 'MCC2024-00060',
+            'name'       => 'Kim Deniel Gavilan',
             'course'     => 'BS Information Technology',
             'year'       => '3rd Year',
             'section'    => '3-F2',
-            'email'      => 'korineborbe10@gmail.com'
+            'email'      => 'gavilan.kimg@minsu.edu.ph'
         ];
 
         $this->call->view('student_profile', $student);
@@ -32,7 +32,7 @@ class StudentController extends Controller
     {
         session_start();
 
-        $correct_password = 'borbe123'; // change this to whatever you like
+        $correct_password = 'gavilan123'; // change this to whatever you like
 
         if (isset($_POST['password']) && $_POST['password'] === $correct_password) {
             $_SESSION['student_access'] = true;
